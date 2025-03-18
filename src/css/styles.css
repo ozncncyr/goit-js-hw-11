@@ -87,7 +87,7 @@ body {
 .gallery .gallery-item {
   position: relative;
   width: 360px;
-  height: 200px;
+  /* height: 200px; */
   border: 1px solid crimson;
 }
 
