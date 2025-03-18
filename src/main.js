@@ -97,9 +97,9 @@ const galleryItem = photoInfo => {
 
 }
 
-let galleryBox = new SimpleLightbox('.gallery a', {
-    captionsData: 'alt',
-    captionDelay: 250,
+let galleryBox = new SimpleLightbox('.gallery li > a', {
+  captionsData: 'alt',
+  captionDelay: 350,
 });
 
 form.addEventListener('submit', async e => {
