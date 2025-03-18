@@ -19,6 +19,7 @@ const galleryItem = photoInfo => {
     const itemLink = document.createElement('a');
     itemLink.classList.add('gallery-link');
     itemLink.style.color = 'black';
+    itemLink.href = photoInfo.largeImageURL;
 
     const img = document.createElement('img');
     img.src = photoInfo.webformatURL;
